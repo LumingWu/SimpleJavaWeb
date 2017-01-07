@@ -1,0 +1,50 @@
+html, body, div{
+    height: 100%;
+}
+
+form > div {
+    height: 0px;
+}
+
+body {
+    background-color: #FEE7D9;
+}
+
+#stage{
+    background-color: #0199FE;
+    opacity: 0.5;
+}
+
+#content {
+    width: 375px;
+    height: 375px;
+    min-width: 375px;
+    min-height:375px;
+}
+
+.relative {
+    position: relative;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.horizontal-center {
+    margin: 0 auto;
+}
+
+
+
